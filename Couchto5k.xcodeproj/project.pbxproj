@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA81DCDF1D3D2DCE003136A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA81DCDE1D3D2DCE003136A4 /* AppDelegate.swift */; };
+		AA81DCE11D3D2DCE003136A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA81DCE01D3D2DCE003136A4 /* ViewController.swift */; };
+		AA81DCE41D3D2DCE003136A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA81DCE21D3D2DCE003136A4 /* Main.storyboard */; };
+		AA81DCE61D3D2DCE003136A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA81DCE51D3D2DCE003136A4 /* Assets.xcassets */; };
+		AA81DCE91D3D2DCE003136A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA81DCE71D3D2DCE003136A4 /* LaunchScreen.storyboard */; };
+		AA81DCF41D3D2DCF003136A4 /* Couchto5kTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA81DCF31D3D2DCF003136A4 /* Couchto5kTests.swift */; };
+		AA81DCFF1D3D2DCF003136A4 /* Couchto5kUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA81DCFE1D3D2DCF003136A4 /* Couchto5kUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA81DCF01D3D2DCF003136A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA81DCD31D3D2DCE003136A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA81DCDA1D3D2DCE003136A4;
+			remoteInfo = Couchto5k;
+		};
+		AA81DCFB1D3D2DCF003136A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA81DCD31D3D2DCE003136A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA81DCDA1D3D2DCE003136A4;
+			remoteInfo = Couchto5k;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA81DCDB1D3D2DCE003136A4 /* Couchto5k.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Couchto5k.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA81DCDE1D3D2DCE003136A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA81DCE01D3D2DCE003136A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA81DCE31D3D2DCE003136A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA81DCE51D3D2DCE003136A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA81DCE81D3D2DCE003136A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA81DCEA1D3D2DCE003136A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA81DCEF1D3D2DCF003136A4 /* Couchto5kTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Couchto5kTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA81DCF31D3D2DCF003136A4 /* Couchto5kTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Couchto5kTests.swift; sourceTree = "<group>"; };
+		AA81DCF51D3D2DCF003136A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA81DCFA1D3D2DCF003136A4 /* Couchto5kUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Couchto5kUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA81DCFE1D3D2DCF003136A4 /* Couchto5kUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Couchto5kUITests.swift; sourceTree = "<group>"; };
+		AA81DD001D3D2DCF003136A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA81DCD81D3D2DCE003136A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA81DCEC1D3D2DCF003136A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA81DCF71D3D2DCF003136A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA81DCD21D3D2DCE003136A4 = {
+			isa = PBXGroup;
+			children = (
+				AA81DCDD1D3D2DCE003136A4 /* Couchto5k */,
+				AA81DCF21D3D2DCF003136A4 /* Couchto5kTests */,
+				AA81DCFD1D3D2DCF003136A4 /* Couchto5kUITests */,
+				AA81DCDC1D3D2DCE003136A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA81DCDC1D3D2DCE003136A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA81DCDB1D3D2DCE003136A4 /* Couchto5k.app */,
+				AA81DCEF1D3D2DCF003136A4 /* Couchto5kTests.xctest */,
+				AA81DCFA1D3D2DCF003136A4 /* Couchto5kUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA81DCDD1D3D2DCE003136A4 /* Couchto5k */ = {
+			isa = PBXGroup;
+			children = (
+				AA81DCDE1D3D2DCE003136A4 /* AppDelegate.swift */,
+				AA81DCE01D3D2DCE003136A4 /* ViewController.swift */,
+				AA81DCE21D3D2DCE003136A4 /* Main.storyboard */,
+				AA81DCE51D3D2DCE003136A4 /* Assets.xcassets */,
+				AA81DCE71D3D2DCE003136A4 /* LaunchScreen.storyboard */,
+				AA81DCEA1D3D2DCE003136A4 /* Info.plist */,
+			);
+			path = Couchto5k;
+			sourceTree = "<group>";
+		};
+		AA81DCF21D3D2DCF003136A4 /* Couchto5kTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA81DCF31D3D2DCF003136A4 /* Couchto5kTests.swift */,
+				AA81DCF51D3D2DCF003136A4 /* Info.plist */,
+			);
+			path = Couchto5kTests;
+			sourceTree = "<group>";
+		};
+		AA81DCFD1D3D2DCF003136A4 /* Couchto5kUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA81DCFE1D3D2DCF003136A4 /* Couchto5kUITests.swift */,
+				AA81DD001D3D2DCF003136A4 /* Info.plist */,
+			);
+			path = Couchto5kUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA81DCDA1D3D2DCE003136A4 /* Couchto5k */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA81DD031D3D2DCF003136A4 /* Build configuration list for PBXNativeTarget "Couchto5k" */;
+			buildPhases = (
+				AA81DCD71D3D2DCE003136A4 /* Sources */,
+				AA81DCD81D3D2DCE003136A4 /* Frameworks */,
+				AA81DCD91D3D2DCE003136A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Couchto5k;
+			productName = Couchto5k;
+			productReference = AA81DCDB1D3D2DCE003136A4 /* Couchto5k.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA81DCEE1D3D2DCF003136A4 /* Couchto5kTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA81DD061D3D2DCF003136A4 /* Build configuration list for PBXNativeTarget "Couchto5kTests" */;
+			buildPhases = (
+				AA81DCEB1D3D2DCF003136A4 /* Sources */,
+				AA81DCEC1D3D2DCF003136A4 /* Frameworks */,
+				AA81DCED1D3D2DCF003136A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA81DCF11D3D2DCF003136A4 /* PBXTargetDependency */,
+			);
+			name = Couchto5kTests;
+			productName = Couchto5kTests;
+			productReference = AA81DCEF1D3D2DCF003136A4 /* Couchto5kTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA81DCF91D3D2DCF003136A4 /* Couchto5kUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA81DD091D3D2DCF003136A4 /* Build configuration list for PBXNativeTarget "Couchto5kUITests" */;
+			buildPhases = (
+				AA81DCF61D3D2DCF003136A4 /* Sources */,
+				AA81DCF71D3D2DCF003136A4 /* Frameworks */,
+				AA81DCF81D3D2DCF003136A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA81DCFC1D3D2DCF003136A4 /* PBXTargetDependency */,
+			);
+			name = Couchto5kUITests;
+			productName = Couchto5kUITests;
+			productReference = AA81DCFA1D3D2DCF003136A4 /* Couchto5kUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA81DCD31D3D2DCE003136A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shaheen Ghiassy";
+				TargetAttributes = {
+					AA81DCDA1D3D2DCE003136A4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AA81DCEE1D3D2DCF003136A4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AA81DCDA1D3D2DCE003136A4;
+					};
+					AA81DCF91D3D2DCF003136A4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AA81DCDA1D3D2DCE003136A4;
+					};
+				};
+			};
+			buildConfigurationList = AA81DCD61D3D2DCE003136A4 /* Build configuration list for PBXProject "Couchto5k" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA81DCD21D3D2DCE003136A4;
+			productRefGroup = AA81DCDC1D3D2DCE003136A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA81DCDA1D3D2DCE003136A4 /* Couchto5k */,
+				AA81DCEE1D3D2DCF003136A4 /* Couchto5kTests */,
+				AA81DCF91D3D2DCF003136A4 /* Couchto5kUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA81DCD91D3D2DCE003136A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA81DCE91D3D2DCE003136A4 /* LaunchScreen.storyboard in Resources */,
+				AA81DCE61D3D2DCE003136A4 /* Assets.xcassets in Resources */,
+				AA81DCE41D3D2DCE003136A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA81DCED1D3D2DCF003136A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA81DCF81D3D2DCF003136A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA81DCD71D3D2DCE003136A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA81DCE11D3D2DCE003136A4 /* ViewController.swift in Sources */,
+				AA81DCDF1D3D2DCE003136A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA81DCEB1D3D2DCF003136A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA81DCF41D3D2DCF003136A4 /* Couchto5kTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA81DCF61D3D2DCF003136A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA81DCFF1D3D2DCF003136A4 /* Couchto5kUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA81DCF11D3D2DCF003136A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA81DCDA1D3D2DCE003136A4 /* Couchto5k */;
+			targetProxy = AA81DCF01D3D2DCF003136A4 /* PBXContainerItemProxy */;
+		};
+		AA81DCFC1D3D2DCF003136A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA81DCDA1D3D2DCE003136A4 /* Couchto5k */;
+			targetProxy = AA81DCFB1D3D2DCF003136A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA81DCE21D3D2DCE003136A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA81DCE31D3D2DCE003136A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA81DCE71D3D2DCE003136A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA81DCE81D3D2DCE003136A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA81DD011D3D2DCF003136A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA81DD021D3D2DCF003136A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA81DD041D3D2DCF003136A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Couchto5k/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FFF.Couchto5k;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA81DD051D3D2DCF003136A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Couchto5k/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FFF.Couchto5k;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA81DD071D3D2DCF003136A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Couchto5kTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FFF.Couchto5kTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Couchto5k.app/Couchto5k";
+			};
+			name = Debug;
+		};
+		AA81DD081D3D2DCF003136A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Couchto5kTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FFF.Couchto5kTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Couchto5k.app/Couchto5k";
+			};
+			name = Release;
+		};
+		AA81DD0A1D3D2DCF003136A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Couchto5kUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FFF.Couchto5kUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Couchto5k;
+			};
+			name = Debug;
+		};
+		AA81DD0B1D3D2DCF003136A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Couchto5kUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FFF.Couchto5kUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Couchto5k;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA81DCD61D3D2DCE003136A4 /* Build configuration list for PBXProject "Couchto5k" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA81DD011D3D2DCF003136A4 /* Debug */,
+				AA81DD021D3D2DCF003136A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA81DD031D3D2DCF003136A4 /* Build configuration list for PBXNativeTarget "Couchto5k" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA81DD041D3D2DCF003136A4 /* Debug */,
+				AA81DD051D3D2DCF003136A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA81DD061D3D2DCF003136A4 /* Build configuration list for PBXNativeTarget "Couchto5kTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA81DD071D3D2DCF003136A4 /* Debug */,
+				AA81DD081D3D2DCF003136A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA81DD091D3D2DCF003136A4 /* Build configuration list for PBXNativeTarget "Couchto5kUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA81DD0A1D3D2DCF003136A4 /* Debug */,
+				AA81DD0B1D3D2DCF003136A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA81DCD31D3D2DCE003136A4 /* Project object */;
+}
