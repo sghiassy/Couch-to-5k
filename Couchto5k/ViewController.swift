@@ -10,16 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var time: UILabel?
+    @IBOutlet weak var timer: UILabel?
+    @IBOutlet weak var mode: UILabel?
+    @IBOutlet weak var start: UIButton?
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        self.time?.text = nil
+        self.mode?.text = nil
+        self.timer?.text = nil
+        self.start?.addTarget(self, action: #selector(self.touch(_:)), forControlEvents: .TouchUpInside);
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func touch(sender: UIButton) {
+        print("something")
     }
-
-
 }
 
